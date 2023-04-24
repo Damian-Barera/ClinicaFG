@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Link Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link CSS -->
+    <link href="index.css" rel="stylesheet" />
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Damian Barera" />
+    <meta name="description" content="Clinica Cicec del Dr Franco Gómez" />
+    <meta name="keywords" content="clínica" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tittle -->
+    <title>Clínica Cicec</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="images/fraco_gomez_logotipo.png"
+      type="image/x-icon"
+    />
+
+    <!-- Link GoogleFonts -->
+    <!-- Rubik Dirt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hanken Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- Logotipe -->
+          <img
+            src="/images/fraco_gomez_logotipo.png"
+            alt="Franco Gómez Logotipo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Conócenos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle proyectos-menu"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tratamientos
+              </a>
+              <ul class="dropdown-menu">
+                <!-- This link go to another HTML -->
+                <li><a class="dropdown-item" href="#">Tratamiento 1</a></li>
+                <!-- This link go to another HTML -->
+                <li><a class="dropdown-item" href="#">Tratamiento 2</a></li>
+                <!-- Divisor  -->
+                <li><hr class="dropdown-divider" /></li>
+                <!-- Those links go to another HTML -->
+                <li><a class="dropdown-item" href="#">Tratamiento 3</a></li>
+                <li><a class="dropdown-item" href="#">Tratamiento 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <!-- This link go to another section of this page -->
+              <a class="nav-link" href="#contactame">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr class="divisor" />
+
+    <!-- Hero Section -->
+    <div class="black-background">
+      <section class="hero-section">
+        <div class="hero-text">
+          <h3>Medicina y estética en un solo lugar</h3>
+        </div>
+      </section>
+    </div>
+    <!-- Italian Level -->
+    <section class="italian-level">
+      <h2>
+        En Cicec nos preocupamos de verdad por el bienestar de nuestros
+        pacientes
+      </h2>
+
+      <!-- Description Boxes -->
+      <div class="description-boxes">
+        <img
+          src="./images/formamos_profesionales.png"
+          alt="profesionales médicos"
+        />
+        <div>
+          <h3>Cursos</h3>
+          <p>Formamos profesionales</p>
+        </div>
+      </div>
+      <div class="description-boxes">
+        <img src="./images/imagen_hero.jpeg" alt="medicina estética" />
+        <div>
+          <h3>Tratamientos</h3>
+          <p>Te ofrecemos tratamientos personalizados</p>
+        </div>
+      </div>
+      <div class="description-boxes">
+        <img
+          src="./images/productos_de_cicec.jpg"
+          alt="productos de estética"
+        />
+        <div>
+          <h3>Productos</h3>
+          <p>Venta de productos general</p>
+        </div>
+      </div>
+      <div class="description-boxes">
+        <img src="./images/aparatos_esteticos.png" alt="aparatos de estética" />
+        <div>
+          <h3>Aparatos</h3>
+          <p>Venta de Insumos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section class="lemas-anthony">
+      <h2>Cirugías Masculinas</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Rinoplastía (Cirugía de Nariz)
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                El objetivo de esta cirugía es corregir las deformidades nasales
+                que alteran la función ventilatoria y a su vez condicionan los
+                atributos de la armonía facial. Según cada caso se podra
+                realizar: refinamiento de la punta nasal, aumento o disminución
+                de su proyección, elevación de la punta, eliminación de la giba
+                del dorso, disminución de orificios nasales grandes, corrección
+                de desvíos, tratamiento del tabique nasal y de obstrucciones
+                respiratorias, etc. En algunos casos, el procedimiento puede
+                combinarse con el uso de prótesis de mentón y/o pómulos si fuese
+                necesario para balancear el perfil facial (perfiloplastía).<br>
+                Duración: 60-120 minutos aproximadamente.<br> Anestesia: Sedación
+                anestésica o anestesia general.<br> Procedimiento ambulatorio.
+                Recuperación: Yeso por 10-15 días.<br> Actividad física luego del
+                mes.<br> Resultado final a los 6 meses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Lifting Facial
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                El objetivo de este procedimiento es el rejuvenecimiento facial conservando los rasgos naturales. Las nuevas tecnicas de lifting facial permiten atenuar los surcos y arrugas de la cara y cuello para recuperar el óvalo facial, sin cambiar las facciones. En algunos casos el procedimiento se puede complementar con el uso de rellenos de grasa para reponer los volumenes perdidos (lipofilling), como así también con blefaroplastia y lifting de ceja. La combinación  de procedimientos indicada para alcanzar los mejores objetivos debe ser adaptada a cada paciente. <br>
+
+                Duración: 3 horas aproximadamente.<br>
+                
+                Anestesia: Local con sedación anestésica. Procedimiento ambulatorio.<br>
+                
+                Recuperación: Variable, entre 15 y 20 días. Resultado final a los 6 meses.<br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Blefaroplastia (Cirugía de Párpados)
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                El objetivo de esta cirugía es corregir el exceso de piel y grasa de los párpados. Esto se consigue eliminando o reposicionando los tejidos para suavizar las arrugas y bolsas que envejecen nuestra mirada. En algunos casos este procedimiento puede combinarse con elevación de la cola de las cejas (lifting de cejas) y elevacion de los pomulos (lifting de tercio medio facial).<br>
+
+                Duración: 60-90 minutos aproximadamente.<br>
+                
+                Anestesia: Local con sedación anestésica. Procedimiento ambulatorio.<br>
+                
+                Recuperación: Variable, entre 10 y 20 días. Resultado final a los 6 meses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Lifting de Cejas
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                El objetivo de esta cirugía  es corregir la posición de las cejas, sobre todo a nivel de su tercio más  lateral. Esto se consigue reposicionando la altura de la ceja para eliminar el tejido que cuelga hacia el parpado y envejece nuestra mirada. En muchos casos este procedimiento se realiza durante una blefaroplastía, pero también puede realizarse en forma aislada.<br>
+
+                Duración: 45 minutos aproximadamente.<br>
+                
+                Anestesia: Local con sedación anestésica. Procedimiento ambulatorio.<br>
+                
+                Recuperación: Variable, entre 7 y 10 días
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Bichectomía
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                El objetivo de esta cirugía es afinar y estilizar el rostro, mediante la extraccion de las "bolas de Bichat". Estás son unos cúmulos de grasa que se encuentran en las mejillas, justo por debajo de los pómulos, que no cumplen ninguna función especifica en los adultos, sino que solo aportan volumen a la zona, y cuando se encuentran en exceso dan aspecto de rostro muy redondo, y sin definición . Puede combinarse con otros procedimientos quirúrgicos  y no quirúrgicos  de armonización facial.<br>
+
+                Duración: 45 minutos aproximadamente.<br>
+                
+                Anestesia: Local con sedación anestésica. Procedimiento ambulatorio.<br>
+                
+                Recuperación: 7 - 10 días.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimony Section -->
+    <div
+      id="testimony"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+      data-interval="5000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img
+              class="testimony-image rounded-circle"
+              src="./images/modelo1.jpg"
+              alt=""
+            />
+            <p class="testimony-text">
+              El Dr. Franco es un profesional muy dedicado como pocos. Me ha demostrado que
+              lograr la mejor versión de mi mismo está al alcance de mi mano
+            </p>
+            <div>
+              <p><b>Neil Smith</b></p>
+              <p><b>Project Manager</b> en <b>Mercado Libre</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img
+              class="testimony-image rounded-circle"
+              src="./images/modelo2.jpg"
+              alt=""
+            />
+            <p class="testimony-text">
+              Suelo acomodar mis visitas a la clínica en algunos de mis días libres. El tiempo para mi es oro y en <strong>FG</strong> son muy conscientes de ello.<br> Velocidad y efectividad en un solo lugar.
+            </p>
+            <div>
+              <p><b>Tom Cruise</b></p>
+              <p><b>Actor y Empresario</b>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img
+              class="testimony-image rounded-circle"
+              src="./images/modelo3.jpg"
+              alt=""
+            />
+            <p class="testimony-text">
+              Me ha sorprendido, soy una persona muy reservada para éstas cosas, pero Franco ha sabido ganarse mi confianza y me ha ayudado a cambiar para mejor.
+            </p>
+            <div>
+              <p><b>Harry Mason</b></p>
+              <p><b>Modelo</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#testimony"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#testimony"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contactame" class="contact dark-section">
+      <div class="container">
+        <div
+          class="container rectangle text-center d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 contact-title">
+              <a
+                href="https://wa.me/+5491124725859/?text=Hola%20Amelia!%20Quiero%20hacerte%20una%20%20consulta."
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                <button type="button">
+                  WhatsApp
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-whatsapp"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+            <div class="col-12 col-md-4 contact-description">
+              Ante cualquier pregunta, no dude en contactarnos!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:amelialoren@hotmail.com">
+                <button type="button">
+                  E-Mail
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-check-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"
+                    />
+                    <path
+                      d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-oscuro text-center">
+      <p class="footer-text">2023 <strong>FG ©</strong>, all rights reserved.</p>
+      <p class="footer-text">Developed by Damián Barera</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
