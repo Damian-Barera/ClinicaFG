@@ -98,7 +98,7 @@
     align-items: center;
     padding: 10px;
     margin: 5px 5px 10px 5px;
-    box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
 }
 
 .description-boxes img {
@@ -127,7 +127,7 @@
     text-align: center;
 }
 
-/* Lemas Anthony Section */
+/* Sección de Aciordiones */
 
 .lemas-anthony {
     padding: 10px;
@@ -143,6 +143,10 @@
 .accordion {
     width: 80%;
     margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #EDD4A6;
 }
 
 /* Carousel and Testimony Section */
@@ -193,7 +197,7 @@
 
 .contact .rectangle {
     margin-top: -130px;
-    background-color: rgb(13, 110, 253);
+    background-color: #3F153D;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
 }
