@@ -34,6 +34,33 @@
     color: #3F153D;
 }
 
+.navbar-nav {
+    gap: 10px;
+}
+
+.nav-link {
+    background-color: #EDD4A6;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-item a {
+    background-color: #EDD4A6;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    font-weight: bold;
+    margin: 0;
+    background-color: #EDD4A6;
+    color: #3F153D;
+}
+
 @media (max-width: 767px) {
     .navbar-brand h2 {
         display: none;
